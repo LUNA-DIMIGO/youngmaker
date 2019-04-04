@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
 body, html {
     margin: 0;
     height: 100%;
 }
 
-#background__container {
+.header {
     position: relative;
 
     background-image: url("/assets/images/background.png");
@@ -11,7 +13,7 @@ body, html {
 
     height: 80%;
 
-    #logo__img {
+    .header__cali_logo {
         position: absolute;  
 
         max-height: 100%;  
@@ -28,7 +30,7 @@ body, html {
     }
 }
 
-#luna_logo__img {
+.header__logo {
     display: block;
 
     margin-left: auto;
@@ -38,3 +40,22 @@ body, html {
 
     width: 6em;
 }
+
+.header__nav {
+    text-align: center;
+
+    margin-top: -0.5em;
+
+    a {
+        color: #212529;
+        text-decoration: none;
+
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: bold;
+
+        & + a {
+            margin-left: 2em;
+        }
+    }
+}
+
