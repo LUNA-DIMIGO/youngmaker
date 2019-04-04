@@ -1,0 +1,28 @@
+.topbar {
+    background-color: #ccccff;
+    background-image: url("/assets/images/luna_logo.png");
+    background-size: 2.2em 2.4em;
+    background-repeat:   no-repeat;
+    background-position: center center;
+
+    padding: 0.5em 0 0.5em 1em;
+
+    text-align: center;
+
+    .topbar__button {
+        display: block;
+
+        width: 2em;
+        height: 2em;
+
+    }
+
+    .topbar__logo {
+        display: inline-block;
+
+        width: 2.5em;
+        height: 2.7em;
+
+        margin: 0 auto;
+    }
+}
