@@ -1,0 +1,17 @@
+.posts {
+    list-style-type: none;
+    margin: 4em 12em 0 12em;
+
+    .posts__post {
+        margin-bottom: 3em;
+
+        .posts__post__date {
+            color: #adb5bd;
+        }
+
+        hr {
+            border: none;
+            border-bottom: 1px solid #adb5bd;
+        }
+    }
+}

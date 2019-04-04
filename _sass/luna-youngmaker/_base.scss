@@ -1,4 +1,19 @@
 body, html {
     margin: 0;
     height: 100%;
+
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    a {
+        font-family: 'Nanum Barun Gothic', sans-serif;
+        color: #343a40;
+
+        text-decoration: none;
+    }
+}
+
+h2 {
+    margin-bottom: 0.3em;
 }

@@ -3,11 +3,17 @@ layout: default
 title: 루나 영메이커 프로젝트
 ---
 {% include topbar.html %}
-<ul>
+<ul class="posts">
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      <p>{{ post.excerpt }}</p>
+    <li class="posts__post">
+      <h2>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2>
+      <small class="posts__post__date">
+          {{ post.date | date_to_string }}
+      </small>
+      <hr>
+      {{ post.excerpt }}
     </li>
   {% endfor %}
 </ul>
