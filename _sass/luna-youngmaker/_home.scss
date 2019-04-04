@@ -1,0 +1,54 @@
+.header {
+    position: relative;
+
+    background-image: url("/assets/images/background.png");
+    background-size: cover;
+
+    height: 80%;
+
+    .header__cali_logo {
+        position: absolute;  
+
+        max-height: 100%;  
+        max-width: 100%; 
+
+        width: 25em;
+
+        top: 0;  
+        bottom: 0;  
+        left: 0;  
+        right: 0;  
+
+        margin: auto;
+    }
+}
+
+.header__logo {
+    display: block;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: translateY(-50%);
+
+    width: 6em;
+}
+
+.header__nav {
+    text-align: center;
+
+    margin-top: -0.5em;
+
+    a {
+        color: #212529;
+        text-decoration: none;
+
+        font-family: 'Nanum Gothic', sans-serif;
+        font-weight: bold;
+
+        & + a {
+            margin-left: 2em;
+        }
+    }
+}
+
