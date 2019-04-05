@@ -12,5 +12,10 @@
 
         width: 2em;
         height: 2em;
+
+        @media screen and (max-width: $mobile-width) {
+            width: 2.2em;
+            height: 2.2em;
+        }
     }
 }

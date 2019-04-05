@@ -1,3 +1,5 @@
+$mobile-width: 740px;
+
 body, html {
     margin: 0;
     height: 100%;
@@ -7,6 +9,10 @@ body, html {
 
 .content__container {
     padding: 3em 12em 0 12em;
+
+    @media screen and (max-width: $mobile-width) {
+        padding: 2em 1.3em 0 1.3em;
+    }
 }
 
 h1, h2, h3, h4, h5, h6 {
