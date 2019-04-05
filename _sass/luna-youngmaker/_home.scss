@@ -49,13 +49,25 @@
 
     a {
         color: #212529;
+
+        padding: 0 1em;
+        border-radius: 10px;
+
         text-decoration: none;
 
         font-family: 'Nanum Gothic', sans-serif;
         font-weight: bold;
 
         & + a {
-            margin-left: 2em;
+            margin-left: 0.5em;
+        }
+
+        transition-property: background-color, color;
+        transition-duration: 0.1s;
+
+        &:hover {
+            background-color: black;
+            color: white;
         }
     }
 }
