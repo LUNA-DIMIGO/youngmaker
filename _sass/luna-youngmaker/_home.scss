@@ -13,6 +13,14 @@
         max-width: 100%; 
 
         width: 25em;
+        
+        @media screen and (max-width: $mobile-width) {
+           width: 20em; 
+        }
+
+        @media screen and (max-width: 320px) {
+           width: 17em; 
+        }
 
         top: 0;  
         bottom: 0;  
