@@ -1,22 +1,32 @@
 .posts {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .posts__post {
-    margin-bottom: 3em;
-    font-size: 1.3em;
+  margin-bottom: 3em;
+  font-size: 1.3em;
 
-    .posts__post__title {
-        margin-bottom: 0.3em;
-    }
-    
-    .posts__post__date {
-        color: #adb5bd;
-    }
+  img {
+    max-width: 50%;
+    max-height: 50%;
+  }
 
-    hr {
-        border: none;
-        border-bottom: 1px solid #adb5bd;
-    }
+  p,
+  ul {
+    line-height: 150%;
+  }
+
+  .posts__post__title {
+    margin-bottom: 0.3em;
+  }
+
+  .posts__post__date {
+    color: #adb5bd;
+  }
+
+  hr {
+    border: none;
+    border-bottom: 1px solid #adb5bd;
+  }
 }

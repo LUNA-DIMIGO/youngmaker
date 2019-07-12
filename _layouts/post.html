@@ -5,11 +5,11 @@ layout: default
 {% include topbar.html %}
 
 <div class="content__container">
-    <div class="posts__post">
-        <h1 class="posts__post__title">{{ page.title }}</h1>
-        <small class="posts__post__date">{{ page.date | date: "%Y년 %-m월 %-d일" }}</small>
-        {{ content }}
-    </div>
+  <div class="posts__post">
+    <h1 class="posts__post__title">{{ page.title }}</h1>
+    <small class="posts__post__date">{{
+      page.date | date: "%Y년 %-m월 %-d일"
+    }}</small>
+    {{ content }}
+  </div>
 </div>
-
-{% include footer.html %}
