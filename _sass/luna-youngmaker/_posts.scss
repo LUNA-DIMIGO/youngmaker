@@ -6,10 +6,25 @@
 .posts__post {
   margin-bottom: 3em;
   font-size: 1.3em;
-
+  
   img {
-    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+
+    max-width: 30vw;
     max-height: 50%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    img {
+      max-width: 50vw;
+    } 
+  }
+
+  @media screen and (max-width: 425px) {
+    img {
+      max-width: 70vw;
+    } 
   }
 
   p,
