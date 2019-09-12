@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Luminous 첫 번째 리메이킹
+title: "[Luminous] 첫 번째 리메이킹"
 ---
 
 2019년 8월 17일, 계획했던 루미너스의 리메이킹을 처음으로 하게 되었습니다. 장소는 [영등포고등학교 Camp 51.9](https://www.makeall.com/reservation/info.php?tsort=&msort=&space_no=1677&list_url=L3Jlc2VydmF0aW9uL3BvcHVsYXIucGhwP3Rzb3J0PSZtc29ydD0%3D) 라는 메이커 스페이스에서 진행하였습니다. 장소를 흔쾌히 빌려주신 관리자분들께 감사하다는 말씀을 드립니다!
